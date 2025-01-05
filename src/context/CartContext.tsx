@@ -2,7 +2,6 @@
 
 import { createContext, useContext, useState, useEffect } from 'react';
 
-// Crear el contexto
 const CartContext = createContext<{
 	cart: Game[];
 	addItemToCart: (item: Game) => void;

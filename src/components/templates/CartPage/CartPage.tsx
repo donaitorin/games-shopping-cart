@@ -11,6 +11,7 @@ import React from 'react';
 
 export const CartPage = () => {
 	const { cart } = useCart();
+	console.log(cart);
 	return (
 		<div className="layout-container">
 			<div className="mt-8">

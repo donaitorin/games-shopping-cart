@@ -2,8 +2,7 @@
 
 import { TextSelect } from '@/components/atoms/TextSelect/TextSelect';
 import { availableFilters } from '@/utils/endpoint';
-import { useRouter, useSearchParams } from 'next/navigation';
-import React, { useState } from 'react';
+import React from 'react';
 
 interface Props {
 	handleGenreFilterChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;

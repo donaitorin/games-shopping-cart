@@ -21,7 +21,7 @@ export const Header: React.FC<Props> = ({ title }) => {
 						<Link href="/cart">
 							<Image
 								src={IMAGES_ASSETS_PATHS.CartIcon}
-								alt="Logo"
+								alt="a cart icon"
 								width={20}
 								height={20}
 							/>
